@@ -16,7 +16,6 @@ $speed: 0.4s;
   margin: auto;
 }
 
-
 .app {
   margin: 0 auto;  
   width: 77vw;
@@ -95,34 +94,6 @@ $speed: 0.4s;
     box-shadow: 1px 1px 3px #1f6288;
   }
 }
-
-// @keyframes slide {
-//   0% {margin-top: -120vw;}
-//   10% {margin-top: -120vw;}
-//   20% {margin-top: -120vw;}
-//   30% {margin-top: -105vw;}
-//   40% {margin-top: -90vw;}
-//   50% {margin-top: -75vw;}
-//   60% {margin-top: -50vw;}
-//   70% {margin-top: -45vw;}
-//   80% {margin-top: -30vw;}
-//   90% {margin-top: -15vw;}
-//   100% {margin-top: 0;}
-// }
-
-// @keyframes slide1 {
-//   0% {margin-top: -150vw;}
-//   10% {margin-top: -135vw;}
-//   20% {margin-top: -120vw;}
-//   30% {margin-top: -105vw;}
-//   40% {margin-top: -90vw;}
-//   50% {margin-top: -75vw;}
-//   60% {margin-top: -50vw;}
-//   70% {margin-top: -45vw;}
-//   80% {margin-top: -30vw;}
-//   90% {margin-top: -15vw;}
-//   100% {margin-top: 0;}
-// }
 
 @keyframes slide {
   0% {margin-top: -90vw;}
