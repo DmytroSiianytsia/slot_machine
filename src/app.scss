@@ -1,0 +1,115 @@
+$speed: 0.4s;
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgb(165, 205, 243); 
+  background: center no-repeat url('./sea.jpg'); 
+  background-size: cover;  
+}
+
+.app-container {
+  position: relative;
+  padding-top: 2vh;   
+}
+
+.app {
+  margin: 0 auto;  
+  width: 77vw;
+  max-width: 1020px;
+  height: calc(45vw + 5px);
+  max-height: 610px;
+  
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+
+  background: #000;
+  border: 6px solid black;    
+}
+
+.drum0.active {
+  animation: slide $speed linear 1;
+}
+.drum1.active {
+  animation: slide $speed linear 2;
+}
+.drum2.active {
+  animation: slide $speed linear 3;
+}
+.drum3.active {
+  animation: slide $speed linear 4;
+}
+.drum4.active {
+  animation: slide $speed linear 5;
+}
+
+.drum0.active1 {
+  animation: slide1 $speed linear 1;
+}
+.drum1.active1 {
+  animation: slide1 $speed linear 2;
+}
+.drum2.active1 {
+  animation: slide1 $speed linear 3;
+}
+.drum3.active1 {
+  animation: slide1 $speed linear 4;
+}
+.drum4.active1 {
+  animation: slide1 $speed linear 5;
+}
+
+.btn {
+  position: absolute;
+  width: 60px;
+  height: 35px;
+  bottom: -80px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 16px;
+  font-weight: bold;
+
+  background: rgb(71, 160, 233);
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px #1f6288;
+  border: none;
+  outline: none; 
+  cursor: pointer;
+  
+  &:active {
+    font-size: 15px;
+    background: rgb(71, 160, 233);
+    box-shadow: 1px 1px 3px #1f6288;
+  }
+}
+
+@keyframes slide {
+  0% {margin-top: -150vw;}
+  10% {margin-top: -135vw;}
+  20% {margin-top: -120vw;}
+  30% {margin-top: -105vw;}
+  40% {margin-top: -90vw;}
+  50% {margin-top: -75vw;}
+  60% {margin-top: -50vw;}
+  70% {margin-top: -45vw;}
+  80% {margin-top: -30vw;}
+  90% {margin-top: -15vw;}
+  100% {margin-top: 0;}
+}
+
+@keyframes slide1 {
+  0% {margin-top: -150vw;}
+  10% {margin-top: -135vw;}
+  20% {margin-top: -120vw;}
+  30% {margin-top: -105vw;}
+  40% {margin-top: -90vw;}
+  50% {margin-top: -75vw;}
+  60% {margin-top: -50vw;}
+  70% {margin-top: -45vw;}
+  80% {margin-top: -30vw;}
+  90% {margin-top: -15vw;}
+  100% {margin-top: 0;}
+}
