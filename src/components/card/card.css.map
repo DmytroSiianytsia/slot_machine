@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AACE,UAAO;EACL,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,KAAK",
+"mappings": "AACE,UAAO;EACL,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,KAAK;AAGlB,+BAAgC;EAC9B,UAAO;IACL,KAAK,EAAE,IAAI",
 "sources": ["card.scss"],
 "names": [],
 "file": "card.css"

@@ -4,29 +4,39 @@ $speed: 0.4s;
   width: 100vw;
   height: 100vh;
 
+  display: flex;    
+
   background-color: rgb(165, 205, 243); 
   background: center no-repeat url('./sea.jpg'); 
-  background-size: cover;  
+  background-size: cover;   
 }
 
 .app-container {
   position: relative;
-  padding-top: 2vh;   
+  margin: auto;
 }
+
 
 .app {
   margin: 0 auto;  
   width: 77vw;
-  max-width: 1020px;
   height: calc(45vw + 5px);
+  max-width: 1020px;
   max-height: 610px;
   
   display: flex;
   justify-content: space-around;
   overflow: hidden;
-
+  
   background: #000;
   border: 6px solid black;    
+}
+
+@media (orientation: landscape) {
+  .app {
+    width: 77vh;
+    height: calc(45vh + 5px);
+  }
 }
 
 .drum0.active {
@@ -86,30 +96,40 @@ $speed: 0.4s;
   }
 }
 
+// @keyframes slide {
+//   0% {margin-top: -120vw;}
+//   10% {margin-top: -120vw;}
+//   20% {margin-top: -120vw;}
+//   30% {margin-top: -105vw;}
+//   40% {margin-top: -90vw;}
+//   50% {margin-top: -75vw;}
+//   60% {margin-top: -50vw;}
+//   70% {margin-top: -45vw;}
+//   80% {margin-top: -30vw;}
+//   90% {margin-top: -15vw;}
+//   100% {margin-top: 0;}
+// }
+
+// @keyframes slide1 {
+//   0% {margin-top: -150vw;}
+//   10% {margin-top: -135vw;}
+//   20% {margin-top: -120vw;}
+//   30% {margin-top: -105vw;}
+//   40% {margin-top: -90vw;}
+//   50% {margin-top: -75vw;}
+//   60% {margin-top: -50vw;}
+//   70% {margin-top: -45vw;}
+//   80% {margin-top: -30vw;}
+//   90% {margin-top: -15vw;}
+//   100% {margin-top: 0;}
+// }
+
 @keyframes slide {
-  0% {margin-top: -150vw;}
-  10% {margin-top: -135vw;}
-  20% {margin-top: -120vw;}
-  30% {margin-top: -105vw;}
-  40% {margin-top: -90vw;}
-  50% {margin-top: -75vw;}
-  60% {margin-top: -50vw;}
-  70% {margin-top: -45vw;}
-  80% {margin-top: -30vw;}
-  90% {margin-top: -15vw;}
+  0% {margin-top: -90vw;}
   100% {margin-top: 0;}
 }
 
 @keyframes slide1 {
-  0% {margin-top: -150vw;}
-  10% {margin-top: -135vw;}
-  20% {margin-top: -120vw;}
-  30% {margin-top: -105vw;}
-  40% {margin-top: -90vw;}
-  50% {margin-top: -75vw;}
-  60% {margin-top: -50vw;}
-  70% {margin-top: -45vw;}
-  80% {margin-top: -30vw;}
-  90% {margin-top: -15vw;}
+  0% {margin-top: -90vw;}
   100% {margin-top: 0;}
 }

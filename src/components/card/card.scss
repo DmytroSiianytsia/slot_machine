@@ -3,4 +3,11 @@
     width: 15vw;
     max-width: 200px;
   }
+
+  @media (orientation: landscape) {
+    &__img {
+      width: 15vh;    
+    }
+  }
 }
+

@@ -1,5 +1,8 @@
 .card__img {
   width: 15vw;
   max-width: 200px; }
+@media (orientation: landscape) {
+  .card__img {
+    width: 15vh; } }
 
 /*# sourceMappingURL=card.css.map */
