@@ -4,7 +4,7 @@ import { Drum } from './components/drum/Drum';
 
 class App extends Component {
   state = {
-    active: 'no',
+    active: 'no'
   }
 
   spin = () => {
